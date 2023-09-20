@@ -43,6 +43,11 @@
   height: 66px;
 }
 
+.img-flex:hover {
+  cursor: pointer;
+  opacity: 30%;
+}
+
 .product-info {
   text-align: left;
 }
@@ -53,6 +58,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  cursor: pointer;
 }
 
 .select-container {
@@ -78,6 +84,12 @@
   justify-content: center;
   align-items: center;
   text-decoration: none;
+  cursor: pointer;
+}
+
+.buy-btn:hover {
+  transform: scale(0.9);
+  transition: 0.3s ease-in;
 }
 
 .buy-btn-content {
