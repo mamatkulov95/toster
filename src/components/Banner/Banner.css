@@ -1,0 +1,53 @@
+.banner {
+  background-image: url('../../assets/photos/banner.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 200px 15px 15px;
+}
+
+.banner-content {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  font-weight: 700;
+}
+
+.banner-timer {
+  border-radius: 7px;
+  background: #F19D2F;
+  display: flex;
+  padding: 10px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.banner-title {
+  font-size: 10px;
+}
+
+.banner-timer-numbers {
+  font-size: 22px;
+}
+
+.banner-price {
+  background: #37D997;
+  border-radius: 7px;
+  display: flex;
+  padding: 10px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.banner-price-old {
+  font-size: 18px;
+  text-decoration-color: #E27500;
+}
+
+.banner-price-new {
+  font-size: 22px;
+}
